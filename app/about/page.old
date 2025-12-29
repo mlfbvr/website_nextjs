@@ -9,8 +9,7 @@ export default function About() {
                 I am a dedicated full-stack developer with over 20 years of experience in software development. I have honed my skills in both front-end
                 and back-end tkchnologies. I enjoy turning complex problems into simple, beautiful, and intuitive solutions.
                 <br />
-                I believe in continuous learning and improvement as a way to make myself the best developer I can be. I also enjoy exploring the multiple
-                facets of Linux, which I have been using for over 30 years as both a user and a system administrator for personal and professional projects.
+                I believe in continuous learning and improvement as a way to make myself the best developer I can be. I also enjoy exploring the multiple facets of Linux, which I have been using for over 30 years as both a user and a system administrator for personal and professional projects.
                 <br />
                 When I'm not coding, you can find me biking, listening to music or sitting by the river with a rod and reel.
             </p>

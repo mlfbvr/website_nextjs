@@ -20,24 +20,27 @@ export default function Home() {
       <div className="w-full p-4 z-40 flex flex-col lg:grid lg:grid-cols-2 lg:grid-rows-4">
         <h1 className="text-3xl font-bold text-center lg:row-start-1 lg:col-start-1 lg:col-span-1 lg:text-left">
           Hello, I'm{' '}
-          <span className="block bg-linear-to-r from-blue-500 to-violet-700 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-blue-500 to-violet-700 bg-clip-text text-transparent">
             Martin Lefebvre
           </span>
         </h1>
-        <p className="mt-4 text-center text-lg lg:text-2xl text-slate-300 lg:row-start-2 lg:col-start-1 lg:col-span-1 lg:row-span-2 lg:text-left">
+        <p className="mt-2 text-center text-lg lg:text-2xl text-slate-300 lg:row-start-2 lg:col-start-1 lg:col-span-1 lg:row-span-2 lg:text-left">
           A full-stack developer passionate about creating functional and secure
           front-end and back-end applications. I specialize in legacy and modern
           technologies, with a strong focus on security and customer experience.
           Let's build something great together!
         </p>
-        <p className="mt-4 text-center text-lg lg:text-2xl text-slate-300 lg:row-start-4 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:text-left">
+        <p className="mt-2 text-center text-lg lg:text-2xl text-slate-300 lg:row-start-4 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:text-left">
           I am available for hiring and freelance work. Feel free to{' '}
           <a href="/contact" className="hover:underline font-semibold">
             reach out
           </a>{' '}
+          or to view my <a href="/resume" className="hover:underline font-semibold">
+            resume
+          </a>{' '}
           to discuss your project or collaboration opportunities.
         </p>
-        <p className="flex items-center justify-center space-x-4 mt-6 lg:mt-0 lg:col-start-2 lg:row-start-1 lg:row-span-3 lg:justify-start lg:grid lg:grid-cols-3 lg:gap-4">
+        <p className="mx-auto lg:mx-0 space-x-4 mt-6 lg:mt-0 lg:col-start-2 lg:row-start-2 lg:row-span-3 lg:justify-start grid grid-cols-3 gap-4">
           <FontAwesomeIcon
             icon={faReact}
             title="React and NextJS"
