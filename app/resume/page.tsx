@@ -1,5 +1,5 @@
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Resume() {
   return (
@@ -32,5 +32,5 @@ export default function Resume() {
         </p>
       </div>
     </section>
-  );
+  )
 }

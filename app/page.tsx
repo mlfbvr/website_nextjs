@@ -10,9 +10,9 @@ import {
   faReact,
   faRedhat,
   faUbuntu,
-} from '@fortawesome/free-brands-svg-icons';
-import { faDatabase } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+} from '@fortawesome/free-brands-svg-icons'
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Home() {
   return (
@@ -35,7 +35,8 @@ export default function Home() {
           <a href="/contact" className="hover:underline font-semibold">
             reach out
           </a>{' '}
-          or to view my <a href="/resume" className="hover:underline font-semibold">
+          or to view my{' '}
+          <a href="/resume" className="hover:underline font-semibold">
             resume
           </a>{' '}
           to discuss your project or collaboration opportunities.
@@ -104,5 +105,5 @@ export default function Home() {
         </p>
       </div>
     </section>
-  );
+  )
 }

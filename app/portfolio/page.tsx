@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/image'
 
 export default function Portfolio() {
   return (
@@ -51,5 +51,5 @@ export default function Portfolio() {
         </div>
       </div>
     </section>
-  );
+  )
 }
