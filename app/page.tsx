@@ -16,7 +16,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Home() {
   return (
-    <section id="home" className="max-w-6xl mx-auto mt-24 text-slate-300">
+    <section id="home" className="max-w-6xl mx-auto lg:mt-24 text-slate-300">
       <div className="w-full p-4 z-40 flex flex-col lg:grid lg:grid-cols-2 lg:grid-rows-4">
         <h1 className="text-3xl font-bold text-center lg:row-start-1 lg:col-start-1 lg:col-span-1 lg:text-left">
           Hello, I'm{' '}
@@ -24,13 +24,13 @@ export default function Home() {
             Martin Lefebvre
           </span>
         </h1>
-        <p className="mt-4 text-center text-2xl text-slate-300 lg:row-start-2 lg:col-start-1 lg:col-span-1 lg:row-span-2 lg:text-left">
+        <p className="mt-4 text-center text-lg lg:text-2xl text-slate-300 lg:row-start-2 lg:col-start-1 lg:col-span-1 lg:row-span-2 lg:text-left">
           A full-stack developer passionate about creating functional and secure
           front-end and back-end applications. I specialize in legacy and modern
           technologies, with a strong focus on security and customer experience.
           Let's build something great together!
         </p>
-        <p className="mt-4 text-center text-2xl text-slate-300 lg:row-start-4 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:text-left">
+        <p className="mt-4 text-center text-lg lg:text-2xl text-slate-300 lg:row-start-4 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:text-left">
           I am available for hiring and freelance work. Feel free to{' '}
           <a href="/contact" className="hover:underline font-semibold">
             reach out
@@ -41,62 +41,62 @@ export default function Home() {
           <FontAwesomeIcon
             icon={faReact}
             title="React and NextJS"
-            className="w-12 h-12 lg:w-16 lg:h-16 lg:m-auto text-slate-400 hover:text-slate-200"
+            className="w-16 h-16 lg:m-auto text-slate-400 hover:text-slate-200"
           />
           <FontAwesomeIcon
             icon={faPhp}
             title="PHP"
-            className="w-12 h-12 lg:w-16 lg:h-16 lg:m-auto text-slate-400 hover:text-slate-200"
+            className="w-16 h-16 lg:m-auto text-slate-400 hover:text-slate-200"
           />
           <FontAwesomeIcon
             icon={faPython}
             title="Python"
-            className="w-12 h-12 lg:w-16 lg:h-16 lg:m-auto text-slate-400 hover:text-slate-200"
+            className="w-16 h-16 lg:m-auto text-slate-400 hover:text-slate-200"
           />
           <FontAwesomeIcon
             icon={faHtml5}
             title="HTML5"
-            className="w-12 h-12 lg:w-16 lg:h-16 lg:m-auto text-slate-400 hover:text-slate-200"
+            className="w-16 h-16 lg:m-auto text-slate-400 hover:text-slate-200"
           />
           <FontAwesomeIcon
             icon={faCss3Alt}
             title="CSS3"
-            className="w-12 h-12 lg:w-16 lg:h-16 lg:m-auto text-slate-400 hover:text-slate-200"
+            className="w-16 h-16 lg:m-auto text-slate-400 hover:text-slate-200"
           />
           <FontAwesomeIcon
             icon={faGitAlt}
             title="GIT"
-            className="w-12 h-12 lg:w-16 lg:h-16 lg:m-auto text-slate-400 hover:text-slate-200"
+            className="w-16 h-16 lg:m-auto text-slate-400 hover:text-slate-200"
           />
           <FontAwesomeIcon
             icon={faLinux}
             title="Linux usage and system administration"
-            className="w-12 h-12 lg:w-16 lg:h-16 lg:m-auto text-slate-400 hover:text-slate-200"
+            className="w-16 h-16 lg:m-auto text-slate-400 hover:text-slate-200"
           />
           <FontAwesomeIcon
             icon={faRedhat}
             title="RedHat"
-            className="w-12 h-12 lg:w-16 lg:h-16 lg:m-auto text-slate-400 hover:text-slate-200"
+            className="w-16 h-16 lg:m-auto text-slate-400 hover:text-slate-200"
           />
           <FontAwesomeIcon
             icon={faUbuntu}
             title="Debian and Ubuntu Linux"
-            className="w-12 h-12 lg:w-16 lg:h-16 lg:m-auto text-slate-400 hover:text-slate-200"
+            className="w-16 h-16 lg:m-auto text-slate-400 hover:text-slate-200"
           />
           <FontAwesomeIcon
             icon={faGithub}
             title="GitHub and GitLab"
-            className="w-12 h-12 lg:w-16 lg:h-16 lg:m-auto text-slate-400 hover:text-slate-200"
+            className="w-16 h-16 lg:m-auto text-slate-400 hover:text-slate-200"
           />
           <FontAwesomeIcon
             icon={faDatabase}
             title="MySQL, Redis, MongoDB"
-            className="w-12 h-12 lg:w-16 lg:h-16 lg:m-auto text-slate-400 hover:text-slate-200"
+            className="w-16 h-16 lg:m-auto text-slate-400 hover:text-slate-200"
           />
           <FontAwesomeIcon
             icon={faDocker}
             title="Docker, Kubernetes and OpenShift"
-            className="w-12 h-12 lg:w-16 lg:h-16 lg:m-auto text-slate-400 hover:text-slate-200"
+            className="w-16 h-16 lg:m-auto text-slate-400 hover:text-slate-200"
           />
         </p>
       </div>

@@ -21,7 +21,7 @@ export default function Contact() {
           <div className="w-3/4 gap-4 items-center mx-auto flex">
             <FontAwesomeIcon
               icon={faEnvelope}
-              className="w-14 h-14 text-slate-400 hover:text-slate-200"
+              className="min-w-14 min-h-14 w-14 h-14 text-slate-400 hover:text-slate-200"
             />
             <a
               href="mailto:martin@martinlefebvre.com"
@@ -33,7 +33,7 @@ export default function Contact() {
           <div className="w-3/4 gap-4 items-center mx-auto flex">
             <FontAwesomeIcon
               icon={faPhone}
-              className="w-14 h-14 text-slate-400 hover:text-slate-200"
+              className="min-w-14 min-h-14 w-14 h-14 text-slate-400 hover:text-slate-200"
             />
             <span className="text-xl text-slate-300 hover:underline mr-2">
               (579) 578-9074
@@ -42,10 +42,10 @@ export default function Contact() {
           <div className="w-3/4 gap-4 items-center mx-auto flex">
             <FontAwesomeIcon
               icon={faMapLocation}
-              className="w-14 h-14 text-slate-400 hover:text-slate-200"
+              className="min-w-14 min-h-14 w-14 h-14 text-slate-400 hover:text-slate-200"
             />
             <span className="text-xl text-slate-300 hover:underline mr-2">
-              Laval, Quebec, Canada
+              Laval, QC, Canada
             </span>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function Contact() {
           <div className="w-3/4 gap-4 items-center mx-auto flex">
             <FontAwesomeIcon
               icon={faGithub}
-              className="w-14 h-14 text-slate-400 hover:text-slate-200"
+              className="min-w-14 min-h-14 w-14 h-14 text-slate-400 hover:text-slate-200"
             />
             <a
               href="https://github.com/mlfbvr/"
@@ -70,26 +70,26 @@ export default function Contact() {
             <FontAwesomeIcon
               icon={faLinkedin}
               target="_blank"
-              className="w-14 h-14 text-slate-400 hover:text-slate-200"
+              className="min-w-14 min-h-14 w-14 h-14 text-slate-400 hover:text-slate-200"
             />
             <a
               href="https://www.linkedin.com/in/mlfbvr"
               className="text-xl text-slate-300 hover:underline mr-2"
             >
-              www.linkedin.com/in/mlfbvr
+              linkedin.com/in/mlfbvr
             </a>
           </div>
           <div className="w-3/4 gap-4 items-center mx-auto flex">
             <FontAwesomeIcon
               icon={faTwitter}
               target="_blank"
-              className="w-14 h-14 text-slate-400 hover:text-slate-200"
+              className="min-w-14 min-h-14 w-14 h-14 text-slate-400 hover:text-slate-200"
             />
             <a
               href="https://x.com/beardedcoder514"
               className="text-xl text-slate-300 hover:underline mr-2"
             >
-              https://x.com/beardedcoder514
+              x.com/beardedcoder514
             </a>
           </div>
         </div>
