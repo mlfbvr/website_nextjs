@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faRss } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +28,7 @@ const Logo = () => (
 
 const MenuButton = () => {
   return (
-    <label htmlFor="menu-toggle" className="cursor-pointer w-8 h-8 border border-slate-700 rounded-lg flex flex-col justify-center items-center p-2 md:hidden">
+    <label htmlFor="menu-toggle" className="cursor-pointer w-8 h-8 border border-slate-700 rounded-lg flex flex-col justify-center items-center p-2 lg:hidden">
       <span className="border rounded-xs w-full my-0.5"></span>
       <span className="border rounded-xs w-full my-0.5"></span>
       <span className="border rounded-xs w-full my-0.5"></span>
@@ -35,27 +38,30 @@ const MenuButton = () => {
 
 const Header = () => {
   return (
-    <div className="w-full md:max-w-6xl md:mx-auto h-16 max-h-16 border-b border-slate-700 bg-slate-900 z-50 sticky top-0 flex items-center">
-      <header className="w-full mx-auto p-4 flex flex-col md:flex-row justify-between items-center space-x-4">
+    <div className="w-full lg:max-w-6xl lg:mx-auto h-16 max-h-16 border-b border-slate-700 bg-slate-900 z-50 sticky top-0 lg:flex items-center">
+      <header className="w-full mx-auto p-4 flex flex-col lg:flex-row justify-between items-center space-x-4">
         <input type="checkbox" id="menu-toggle" className="hidden peer" />
-        <div className="w-11/12 flex justify-between md:justify-start items-center space-x-2 mr-0">
+        <div className="w-11/12 flex justify-between lg:justify-start items-center space-x-2 mr-0">
           <Logo />
-          <span className="text-xl font-black text-center">Martin Lefebvre</span>
+          <span className="text-xl font-black text-center">Martin Lefebvre <span className="text-md font-thin hidden md:inline lg:hidden">Full Stack Developer</span></span>
           <MenuButton />
         </div>
-        <div className="w-11/12 hidden md:flex peer-checked:flex peer-checked:justify-between transition-all duration-800 mr-0">
-          <nav className="w-full md:inlide md:w-auto border md:border-0 md:bg-transparent p-2 rounded-xl border-slate-700 bg-slate-800 my-2 z-50">
-            <ul className="flex flex-col md:flex-row space-x-8 text-slate-400">
-              <li><a href="#home" className="hover:underline my-0.5">Home</a></li>
-              <li><a href="#about" className="hover:underline my-0.5">About</a></li>
-              <li><a href="#resume" className="hover:underline my-0.5">Resume</a></li>
-              <li><a href="#portfolio" className="hover:underline my-0.5">Portfolio</a></li>
-              <li><a href="#contact" className="hover:underline my-0.5">Contact</a></li>
+        <div className="w-11/12 hidden lg:flex peer-checked:flex peer-checked:justify-between transition-all duration-800 mr-0">
+          <nav className="w-full lg:inline lg:w-auto border lg:border-0 lg:bg-transparent p-2 rounded-xl border-slate-700 bg-slate-800 my-2 z-50">
+            <ul className="flex flex-col lg:flex-row space-x-8 text-slate-400">
+              <li><a href="/" className="hover:underline my-0.5">Home</a></li>
+              <li><a href="/about" className="hover:underline my-0.5">About</a></li>
+              <li><a href="/resume" className="hover:underline my-0.5">Resume</a></li>
+              <li><a href="/portfolio" className="hover:underline my-0.5">Portfolio</a></li>
+              <li><a href="/contact" className="hover:underline my-0.5">Contact</a></li>
             </ul>
           </nav>
         </div>
-        <div>
-          hello
+        <div className="w-11/12 hidden lg:flex justify-end items-center space-x-2 mr-0">
+          <FontAwesomeIcon icon={faRss} className="w-6 h-6 text-slate-400 hover:text-slate-200 cursor-pointer mr-4" />
+          <FontAwesomeIcon icon={faEnvelope} className="w-6 h-6 text-slate-400 hover:text-slate-200 cursor-pointer mr-4" />
+          <FontAwesomeIcon icon={faGithub} className="w-6 h-6 text-slate-400 hover:text-slate-200 cursor-pointer mr-4" />
+          <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6 text-slate-400 hover:text-slate-200 cursor-pointer" />
         </div>
       </header>
     </div>
@@ -75,7 +81,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth`}
       >
         <Header />
         {children}
