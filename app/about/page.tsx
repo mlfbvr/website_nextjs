@@ -28,6 +28,7 @@ export default function Home() {
           <Image
             src="/martin.jpg"
             alt="Martin Lefebvre"
+            loading="eager"
             width={400}
             height={300}
             className="rounded-4xl border-4 border-slate-700 hover:border-blue-600 transition"
