@@ -182,10 +182,10 @@ export default function Portfolio() {
           <h3 className="text-xl font-semibold mt-2">CastNotes</h3>
           <div className="my-2">
             <span className="bg-slate-600 border rounded-lg p-1 mx-1 text-xs">
-              PHP
+              Python
             </span>
             <span className="bg-slate-600 border rounded-lg p-1 mx-1 text-xs">
-              Symfony
+              Django
             </span>
             <span className="bg-slate-600 border rounded-lg p-1 mx-1 text-xs">
               PostgreSQL
@@ -211,6 +211,19 @@ export default function Portfolio() {
           <p className="text-slate-300 mt-1">
             (Work in progress) A simple todo list application for families or
             small offices to share tasks and stay organized.
+          </p>
+        </div>
+        <div className="border border-slate-700 rounded-lg p-4 bg-slate-800">
+          <Image
+            src="/projects/na.png"
+            alt="PodHub Screenshot"
+            width={350}
+            height={200}
+            className="rounded-lg"
+          />
+          <h3 className="text-xl font-semibold mt-2">PodHub</h3>
+          <p className="text-slate-300 mt-1">
+            (Work in progress) Media ingestion and lifecycle management system
           </p>
         </div>
       </div>
